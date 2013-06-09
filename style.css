@@ -17,14 +17,173 @@ License URI: http://www.slackentiegroup.com/license/themelicense
 	z-index: 30;
 	left: 0px;
 	top: 0px;
-	background-color: #00b1e6;
+	background-color: #000000;
 }
 #logo-container {
 	position: relative;
-	top: 15px;
+	top: 20px;
 	left: 0;
-	width:190px;
+	width:170px;
 }
+#nav-menu-list {
+	top:20px;
+}
+#descr-text {
+	position:relative;
+	top:20px;
+	width:420px;
+	height:auto;
+	color:#FFF;
+	font-size:12px;
+}
+#descr-title {
+	text-shadow: 0px 1px 2px #000;
+	position:relative;
+	top:20px;
+	left:0;
+	color:#ACC452;
+	font-weight:bold;
+	font-size:36px;
+	width:300px;
+}
+
+
+/*Filters CSS Code-----------------------*/
+#filters {
+	font-size:10px;
+	position:relative;
+	top:35px;
+	left:0;
+	width:370px;
+	height:auto;
+	margin: 0px;
+	z-index:10;
+	list-style:none;
+}
+
+ul#filters li {
+	position:relative;
+	float:left;
+	top:0;
+	left:0;
+	width:auto;
+	height:auto;
+	font-size:10px;
+	padding-right:6px;
+}
+li.clients-filter a {
+	padding: 9px 10px 9px 10px;
+	background-color:#568B0F;
+	color:#FFF;
+	display:block;
+	text-decoration:none;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	-moz-box-shadow: 0px 0px 2px #000;
+  	-webkit-box-shadow: 0px 0px 2px #000;
+  	box-shadow: 0px 0px 2px #000;
+}
+li.clients-filter a:active {
+	-moz-box-shadow:inset 0px 0px 3px #000;
+	-webkit-box-shadow:inset 0px 0px 3px #000;
+	box-shadow:inset 0px 0px 3px #000;
+	z-index: 0;
+}
+li.products-filter a {
+	padding: 9px 10px 9px 10px;
+	background-color:#0F97F2;
+	color:#FFF;
+	display:block;
+	text-decoration:none;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	-moz-box-shadow: 0px 0px 2px #000;
+  	-webkit-box-shadow: 0px 0px 2px #000;
+  	box-shadow: 0px 0px 2px #000;
+}
+li.products-filter a:active {
+	-moz-box-shadow:inset 0px 0px 3px #000;
+	-webkit-box-shadow:inset 0px 0px 3px #000;
+	box-shadow:inset 0px 0px 3px #000;
+	z-index: 0;
+}
+li.facts-filter a {
+	padding: 9px 10px 9px 10px;
+	background-color:#000000;
+	color:#FFF;
+	display:block;
+	text-decoration:none;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	-moz-box-shadow: 0px 0px 2px #000;
+  	-webkit-box-shadow: 0px 0px 2px #000;
+  	box-shadow: 0px 0px 2px #000;
+}
+li.facts-filter a:active {
+	-moz-box-shadow:inset 0px 0px 3px #000;
+	-webkit-box-shadow:inset 0px 0px 3px #000;
+	box-shadow:inset 0px 0px 3px #000;
+	z-index: 0;
+}
+li.applications-filter a {
+	padding: 9px 10px 9px 10px;
+	background-color:#A93E36;
+	color:#FFF;
+	display:block;
+	text-decoration:none;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	-moz-box-shadow: 0px 0px 2px #000;
+  	-webkit-box-shadow: 0px 0px 2px #000;
+  	box-shadow: 0px 0px 2px #000;
+}
+li.applications-filter a:active {
+	-moz-box-shadow:inset 0px 0px 3px #000;
+	-webkit-box-shadow:inset 0px 0px 3px #000;
+	box-shadow:inset 0px 0px 3px #000;
+	z-index: 0;
+}
+li.show-all a {
+	padding: 9px 10px 9px 10px;
+	background-color:#ffffff;
+	color:#000;
+	display:block;
+	text-decoration:none;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	-moz-box-shadow: 0px 0px 2px #000;
+  	-webkit-box-shadow: 0px 0px 2px #000;
+  	box-shadow: 0px 0px 2px #000;
+}
+li.show-all a:active {
+	-moz-box-shadow:inset 0px 0px 3px #000;
+	-webkit-box-shadow:inset 0px 0px 3px #000;
+	box-shadow:inset 0px 0px 3px #000;
+	z-index: 0;
+}
+/*--------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ::selection {
 	background: #C9E7DE;
@@ -287,126 +446,7 @@ a img {
 }
 
 
-/*Filters CSS Code-----------------------*/
-ul#filters {
-	font-family:"Helvetica Neue", Helvetica, Arial, Geneva, sans-serif;
-	font-size:10px;
-	position:absolute;
-	top:175px;
-	left:0;
-	width:370px;
-	height:35px;
-	margin: 0px;
-	z-index:10;
-	list-style:none;
-}
 
-ul#filters li {
-	position:relative;
-	float:left;
-	top:0;
-	left:0;
-	width:auto;
-	height:auto;
-	font-size:10px;
-	padding-right:6px;
-}
-ul#filters li.clients-filter a {
-	padding: 9px 10px 9px 10px;
-	background-color:#568B0F;
-	color:#FFF;
-	display:block;
-	text-decoration:none;
-	-webkit-border-radius: 5px;
-	-moz-border-radius: 5px;
-	border-radius: 5px;
-	-moz-box-shadow: 0px 0px 2px #000;
-  	-webkit-box-shadow: 0px 0px 2px #000;
-  	box-shadow: 0px 0px 2px #000;
-}
-ul#filters li.clients-filter a:active {
-	-moz-box-shadow:inset 0px 0px 3px #000;
-	-webkit-box-shadow:inset 0px 0px 3px #000;
-	box-shadow:inset 0px 0px 3px #000;
-	z-index: 0;
-}
-ul#filters li.products-filter a {
-	padding: 9px 10px 9px 10px;
-	background-color:#0F97F2;
-	color:#FFF;
-	display:block;
-	text-decoration:none;
-	-webkit-border-radius: 5px;
-	-moz-border-radius: 5px;
-	border-radius: 5px;
-	-moz-box-shadow: 0px 0px 2px #000;
-  	-webkit-box-shadow: 0px 0px 2px #000;
-  	box-shadow: 0px 0px 2px #000;
-}
-ul#filters li.products-filter a:active {
-	-moz-box-shadow:inset 0px 0px 3px #000;
-	-webkit-box-shadow:inset 0px 0px 3px #000;
-	box-shadow:inset 0px 0px 3px #000;
-	z-index: 0;
-}
-ul#filters li.facts-filter a {
-	padding: 9px 10px 9px 10px;
-	background-color:#000000;
-	color:#FFF;
-	display:block;
-	text-decoration:none;
-	-webkit-border-radius: 5px;
-	-moz-border-radius: 5px;
-	border-radius: 5px;
-	-moz-box-shadow: 0px 0px 2px #000;
-  	-webkit-box-shadow: 0px 0px 2px #000;
-  	box-shadow: 0px 0px 2px #000;
-}
-ul#filters li.facts-filter a:active {
-	-moz-box-shadow:inset 0px 0px 3px #000;
-	-webkit-box-shadow:inset 0px 0px 3px #000;
-	box-shadow:inset 0px 0px 3px #000;
-	z-index: 0;
-}
-ul#filters li.applications-filter a {
-	padding: 9px 10px 9px 10px;
-	background-color:#A93E36;
-	color:#FFF;
-	display:block;
-	text-decoration:none;
-	-webkit-border-radius: 5px;
-	-moz-border-radius: 5px;
-	border-radius: 5px;
-	-moz-box-shadow: 0px 0px 2px #000;
-  	-webkit-box-shadow: 0px 0px 2px #000;
-  	box-shadow: 0px 0px 2px #000;
-}
-ul#filters li.applications-filter a:active {
-	-moz-box-shadow:inset 0px 0px 3px #000;
-	-webkit-box-shadow:inset 0px 0px 3px #000;
-	box-shadow:inset 0px 0px 3px #000;
-	z-index: 0;
-}
-ul#filters li.show-all a {
-	padding: 9px 10px 9px 10px;
-	background-color:#ffffff;
-	color:#000;
-	display:block;
-	text-decoration:none;
-	-webkit-border-radius: 5px;
-	-moz-border-radius: 5px;
-	border-radius: 5px;
-	-moz-box-shadow: 0px 0px 2px #000;
-  	-webkit-box-shadow: 0px 0px 2px #000;
-  	box-shadow: 0px 0px 2px #000;
-}
-ul#filters li.show-all a:active {
-	-moz-box-shadow:inset 0px 0px 3px #000;
-	-webkit-box-shadow:inset 0px 0px 3px #000;
-	box-shadow:inset 0px 0px 3px #000;
-	z-index: 0;
-}
-/*--------------------------------------*/
 
 #filerisation-holder {
 	font-family:"Helvetica Neue", Helvetica, Arial, Geneva, sans-serif;

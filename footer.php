@@ -5,3 +5,10 @@
 		<div id="footer-copyright">Copyright © 2012 Flutec L.P. All other brands © their respective owners.</div>
 	</div>
 </div>
+<script src="http://code.jquery.com/jquery.js"></script>
+<script src="<?php bloginfo('stylesheet_directory'); ?>/assets/js/init.js"></script>
+<script src="<?php bloginfo('stylesheet_directory'); ?>/assets/js/jquery.isotope.min.js"></script>
+<script src="<?php bloginfo('stylesheet_directory'); ?>/bootstrap/js/bootstrap.min.js"></script>
+<script src="https://raw.github.com/paulirish/infinite-scroll/master/jquery.infinitescroll.min.js"></script>
+</body>
+</html>

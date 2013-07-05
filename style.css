@@ -861,7 +861,7 @@ This is the tile system CSS implementation the structure is as follows
 #masonry-tiles .products {
 	background-color: #2682DC;
 	height: auto;
-	width: 350px;
+	width: 270px;
 	position: relative;
 	z-index: 0;
 	left: 0;

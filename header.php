@@ -17,7 +17,10 @@
     </head>
     
     <body>
-        <div id="header">
+                
+<div class="hero-unit" id="header-background" style="background-image: url(http://www.ge.com/sites/default/files/ge9x_hero_0.jpg); background-size: cover; ">
+	
+	<div id="header">
             <div class="container">
                 <div class="row" id="branding-container">
                     <div class="span3" id="logo-container">
@@ -25,43 +28,37 @@
                     </div>
                 </div>
             </div>
-            <div class="container">
-                <div class="navbar">
-                    <div class="navbar-inner">
-                        <div class="container">
-                            <!-- .btn-navbar is used as the toggle for collapsed navbar content --> <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <div class="container">	<a class="btn btn-navbar hidden-desktop" data-toggle="collapse" data-target=".nav-collapse">Main Menu
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </a>
 
-                            <!-- Be sure to leave the brand out there if you want it shown -->
-                            <!-- Everything you want hidden at 940px or less, place within here -->
-                            <div class="nav-collapse collapse">
-                                <ul class="nav">
-                                    <li class="active"><a href="#">Home</a>
-
-                                    </li>
-                                    <li><a href="#">About</a>
-
-                                    </li>
-                                    <li><a href="#">Design + Build</a>
-
-                                    </li>
-                                    <li><a href="#">Manufacturing</a>
-
-                                    </li>
-                                    <li><a href="#">EMS</a>
-
-                                    </li>
-                                    <li><a href="#">Services</a>
-
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                <ul class="nav nav-pills nav-collapse collapse">
+                    <li class="active"> <a href="#">Home</a>
+                    </li>
+                    <li><a href="#">About</a>
+                    </li>
+                    <li><a href="#">Design + Build</a>
+                    </li>
+                    <li><a href="#">Manufacturing</a>
+                    </li>
+                    <li><a href="#">EMS</a>
+                    </li>
+                    <li><a href="#">Services</a>
+                    </li>
+                </ul>
             </div>
         </div>
-        </div>
+	
+	<div class="container">
+		<h1><span style="color:#FFFFFF">We are an HVAC Company.</span></h1>
+  <!--<p><span style="color:#FFFFFF">At FLUTEC we tackle some of the world's toughest HVAC challenges.</span></p>-->
+  <br />
+  <p>
+    <a class="btn btn-primary btn-large btn-green">
+      Learn more
+    </a>
+  </p>
+	</div>
+</div>

@@ -12,18 +12,24 @@ License URI: http://www.slackentiegroup.com/license/themelicense
 */
 #branding-container {
 	height:100px;
-	padding: 0 0px 6px 0;
+	padding: 0 0px 0px 0;
 }
 #logo-container {
 	position: relative;
 	top: 0;
 	left: 0;
-	width:200px;
+	width:195px;
 }
-
-
-
-
+#tile-wrapper {
+	margin-left:-8px;
+	padding: 40px 0 0 0;
+}
+#header-background {
+	-webkit-box-shadow:  0px 1px 5px 1px rgba(0, 0, 0, 0.4);
+        box-shadow:  0px 1px 5px 1px rgba(0, 0, 0, 0.4);
+        -webkit-border-radius: 0px;
+    border-radius: 0px;
+}
 
 
 
@@ -50,9 +56,9 @@ License URI: http://www.slackentiegroup.com/license/themelicense
 }
 .isotope-elements {
 	position: relative;
-	-webkit-border-radius: 0px 0px 4px 4px;
-	-moz-border-radius: 0px 0px 4px 4px;
-	border-radius: 0px 0px 4px 4px;
+	-webkit-border-radius: 4px 4px 4px 4px;
+	-moz-border-radius: 4px 4px 4px 4px;
+	border-radius: 4px 4px 4px 4px;
 	height: auto;
 	overflow:hidden;
 	display: block;
@@ -65,19 +71,19 @@ License URI: http://www.slackentiegroup.com/license/themelicense
 	z-index: 0;
 	box-shadow:0 0 1px 0px #AAA, 0 2px 0px 0px #999,0 5px 10px rgba(0, 0, 0, 0.25);
 	/*width:280px;*/
-	width:279px;
+	width:271px;
 }
 .facts {
-	background-color: #ffffff;
+	background-color: #DABB3A;
 	color:#fff;
 }
 .applications {
-	background-color: #fef6b5;
+	background-color: #C84941;
 	color:#fff;
 	font-size:11px;
 }
 .products {
-	background-color: #FFFFFF;
+	background-color: #296DDE;
 	color:#fff;
 	font-size:11px;
 }
@@ -114,7 +120,6 @@ License URI: http://www.slackentiegroup.com/license/themelicense
 	left:0;
 	width:100%;
 	height:30px;
-	background-color: rgba(255, 255, 255, .1);
 }
 .element-footer .light-color {
 	position: relative;
@@ -163,7 +168,73 @@ License URI: http://www.slackentiegroup.com/license/themelicense
 	background-color: rgba(0,0,0,0.3);
 	padding: 10px 0 40px 10px;
 	position:absolute;
-	z-index:999;
+	z-index:0;
 	top:0;
 	width:100%
+}
+.picture-link a {
+	z-index:10;
+	display:block;
+}
+.picture-background {
+	z-index:0;
+}
+
+.nav-pills li:a {
+	color:#555555;
+	font-weight:bold;
+}
+
+.btn {
+  background: #556378;
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  text-shadow: none;
+  border: none;
+  padding: 11px 22px;
+  -webkit-font-smoothing: antialiased;
+  -webkit-box-shadow: inset 0 -3px 0 rgba(0, 0, 0, 0.08);
+  -moz-box-shadow: inset 0 -3px 0 rgba(0, 0, 0, 0.08);
+  box-shadow: inset 0 -3px 0 rgba(0, 0, 0, 0.08);
+  white-space: nowrap;
+}
+.btn:hover {
+  background: #556378;
+  text-shadow: none;
+  color: #fff;
+}
+.btn:active {
+  margin-top: 2px;
+  -webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.08);
+  -moz-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.08);
+  box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.08);
+  padding-bottom: 9px;
+}
+.btn.btn-large {
+  font-size: 30px;
+  padding: 20px 40px;
+  letter-spacing: -1px;
+}
+.btn.btn-large:active {
+  padding-bottom: 18px;
+}
+.btn.btn-small {
+  font-size: 12px;
+  padding: 5px 15px;
+}
+.btn.btn-small:active {
+  padding-bottom: 3px;
+}
+.btn.btn-primary {
+  background-color: #2ea5f1;
+}
+.btn.btn-orange {
+  background: #f43f20;
+}
+.btn.btn-green {
+  background: #17c740;
 }

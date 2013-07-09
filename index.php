@@ -5,13 +5,14 @@
 	<?php query_posts(array('showposts' => 20, 'orderby' => 'desc', 'category_name' => 'glance')); ?>
 	<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 	<?php $card_id = get_post_meta($post->ID, "Card_Identifier", true); ?>
-    <div class="isotope-elements <?php echo $card_id; ?>" id="<?php get_the_ID(); ?>">
+    <div class="isotope-elements clearfix <?php echo $card_id; ?>" id="<?php get_the_ID(); ?>">
         <div class="card-picture-removethisforfinal1">
-            <a href="<?php the_permalink(); ?>"><?php if ( has_post_thumbnail() ) {the_post_thumbnail();} ?></a>
-            <div class="content-background">
+        	<div class="picture-link"><a href="<?php the_permalink(); ?>"></a></div>
+        	<div class="picture-background"><?php if ( has_post_thumbnail() ) {the_post_thumbnail();} ?></div>
+            <!--<div class="content-background">-->
         	<div class="element-title"><?php the_title(); ?></div>
         	<!--<div class="element-text"><?php the_content(); ?></div>-->
-        	</div>
+        	<!--</div>-->
         </div>
         <!--<div class="element-footer">
         	<?php edit_post_link('Edit'); ?>

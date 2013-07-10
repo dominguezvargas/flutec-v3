@@ -179,6 +179,25 @@ License URI: http://www.slackentiegroup.com/license/themelicense
 .picture-background {
 	z-index:0;
 }
+.picture-information-holder {
+	position:absolute;
+	top:67%;
+	padding-left:15px;
+}
+.picture-title {
+	position:relative;
+	color:#FFFFFF;
+	font-weight:bold;
+	width:auto;
+	font-size:20px;
+	padding: 0 67px 0 0;
+	text-shadow: 1px 1px 2px #000000;
+    filter: dropshadow(color=#000000, offx=1, offy=1);
+}
+.picture-learn-more {
+	position:relative;
+	top:10px;
+}
 
 .nav-pills li:a {
 	color:#555555;
@@ -237,4 +256,8 @@ License URI: http://www.slackentiegroup.com/license/themelicense
 }
 .btn.btn-green {
   background: #17c740;
+ }
+ 
+.btn.btn-blue {
+  background: #2EA5F1;
 }

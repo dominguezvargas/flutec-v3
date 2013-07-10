@@ -1,7 +1,30 @@
 <?php get_header(); ?>
 <div class="container">
+	
+	<div class="row">
+		<div class="span7"><span style="color: #08c";><h2>Flutec at a</span><span style="color: #393e46";> Glance</span></h2></div>
+	</div>
 
-  		<div id="tile-wrapper" class="container">
+  		<div id="tile-wrapper">
+  			
+  			<div class="isotope-elements clearfix photograph">
+  				<div class="picture-information-holder">
+  					<div class="picture-title" id="picture-title-01">FLUTEC goes to California.</div>
+  					<div class="picture-learn-more"><a class="btn btn-primary btn-small btn-blue">Read More</a></div>
+  				</div>
+		<div class="picture-background"><img src="http://distilleryimage4.ak.instagram.com/b370e484e91311e2b31922000a9e5b22_7.jpg" />
+		</div>
+	</div>
+	
+	<div class="isotope-elements clearfix photograph">
+		<div class="picture-information-holder">
+			<div class="picture-title" id="picture-title-02">FLUTEC goes green.</div>
+			<div class="picture-learn-more"><a class="btn btn-primary btn-small btn-blue">Read More</a></div>
+		</div>
+		<div class="picture-background"><img src="http://distilleryimage10.ak.instagram.com/a39b5ea8e8c911e2a2ad22000a9e17ad_7.jpg" /></div>
+	</div>
+	
+  			
 	<?php query_posts(array('showposts' => 20, 'orderby' => 'desc', 'category_name' => 'glance')); ?>
 	<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 	<?php $card_id = get_post_meta($post->ID, "Card_Identifier", true); ?>
@@ -22,6 +45,7 @@
     </div>
     <?php endwhile; else: ?>
 	<?php endif; ?>
+	
 </div>
   		
   		<!--<div id="masonry-tiles" class="clearfix">

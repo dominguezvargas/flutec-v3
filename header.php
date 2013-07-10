@@ -52,7 +52,7 @@
         </div>
 	
 	<div class="container">
-		<h1><span style="color:#FFFFFF">We are an HVAC Company.</span></h1>
+		<div id="header-text"><span style="color:#FFFFFF">We are an HVAC Company.</span></div>
   <!--<p><span style="color:#FFFFFF">At FLUTEC we tackle some of the world's toughest HVAC challenges.</span></p>-->
   <br />
   <p>

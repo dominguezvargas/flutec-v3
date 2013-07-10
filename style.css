@@ -30,8 +30,14 @@ License URI: http://www.slackentiegroup.com/license/themelicense
         -webkit-border-radius: 0px;
     border-radius: 0px;
 }
-
-
+#top-separator {
+	border-bottom: 5px solid #f3f4f6;
+}
+#header-text {
+	font-size:70px;
+	font-weight:bold;
+	padding: 25px 0 25px 0;
+}
 
 
 
@@ -149,14 +155,6 @@ License URI: http://www.slackentiegroup.com/license/themelicense
     font-family: 'Droid Sans','Helvetica Neue', Arial sans-serif;
     font-size:11px;
   }
-.card-picture-removethisforfinal1 {
-	position:relative;
-	top:0;
-	left:0;
-	width:auto;
-	height:auto;
-	z-index: 0;
-}
 .card-picture-removethisforfinal2 {
 	position:relative;
 	top:0;
@@ -181,8 +179,9 @@ License URI: http://www.slackentiegroup.com/license/themelicense
 }
 .picture-information-holder {
 	position:absolute;
-	top:67%;
+	bottom:0%;
 	padding-left:15px;
+	padding-bottom:25px;
 }
 .picture-title {
 	position:relative;
@@ -198,6 +197,7 @@ License URI: http://www.slackentiegroup.com/license/themelicense
 	position:relative;
 	top:10px;
 }
+
 
 .nav-pills li:a {
 	color:#555555;
@@ -260,4 +260,8 @@ License URI: http://www.slackentiegroup.com/license/themelicense
  
 .btn.btn-blue {
   background: #2EA5F1;
+}
+
+@media (max-width: 767px) {
+	padding:0;
 }

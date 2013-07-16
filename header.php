@@ -18,7 +18,7 @@
     
     <body>
                 
-<div class="hero-unit" id="header-background" style="background-image: url(http://www.ge.com/sites/default/files/ge9x_hero_0.jpg); background-size: cover; ">
+<div class="hero-unit" id="header-background" style="background-image: url(<?php bloginfo('stylesheet_directory'); ?>/img/renderingimages.jpg); background-size: cover; ">
 	
 	<div id="header">
             <div class="container">
